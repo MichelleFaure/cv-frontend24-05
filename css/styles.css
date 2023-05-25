@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+ul{
+    padding: 1rem 2rem ;
+}
+
+
+header{
+   display: flex;
+   justify-content: center;
+}
+
+.fondito{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+section h1{
+    text-align: center;
+}
+
+section{
+    background-color: #ffffff;
+    padding-top: 5rem;
+
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+/* ------------- 
+DATOS PERSONALES 
+----------------*/
+
+.lista-datos-personales em{
+    font-weight: 600;
+}
+
+/* ------------- 
+FORMACION ACADEMICA 
+----------------*/
+
+.lista-formacion-academica li{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lista-formacion-academica span{
+    font-weight: 600;
+
+}
+
+/* ------------- 
+EXPERIENCIA LABORAL
+----------------*/
+.lista-experiencia-laboral li{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.lista-experiencia-laboral span{
+    font-weight: 600;
+
+}
+
+/* ------------- 
+    FOOTER
+----------------*/
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #005677;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .imgfooter {
+    width: 20px;
+    height: 20px;
+  }
+
+
+  /* ----------- 
+  --------------- --------------- ---------------
+  CLASE 24 MAYO
+  ---------------- --------------- ---------------
+  --------------*/
+
+
+/* ------------- 
+    BANNER
+----------------*/
+    .banner{
+        width: 100vw;
+        height: 25vh;
+       background-image: url(../img/banner.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       align-items: center;
+    }
+    
+    .banner h1{
+        color: white;
+    }
+
+/* ------------- 
+    FOTO DE PERFIL
+    Y
+    LINK SOBRE MI
+----------------*/
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .contenedor-info div{
+        background-color: #005677;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .foto-perfil{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px white solid;
+    }
+
+    .link-sobremi{
+        text-decoration: none;
+        font-size: 2rem;
+        color: white;
+        display: inline-block;
+    }
